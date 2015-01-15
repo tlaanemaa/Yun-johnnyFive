@@ -12,13 +12,13 @@ Next you'll want to increase your Yun's storage space because the flash memory t
 Now its time to SSH into your Yun and install NodeJS. If you are on a windows machine (like I was) then <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">Putty</a> is a good SSH client to use. Installing NodeJS is easy, just type the following commands:
 <pre>opkg update</pre>
 <pre>opkg install node</pre>
-<i>Installing NodeJS (the second command) took a looooong time (~30-45 min maybe) for me so be patient.</i>
+<i>Installing NodeJS (the second command) took a looooong time (~30-45 min maybe) for me so be patient.</i><br>
 Also, there is a good guide on installing NodeJS (and also expanding storage space) at: <a>http://blog.arduino.cc/2014/05/06/time-to-expand-your-yun-disk-space-and-install-node-js/</a>
 
 Next up, you'll need to install node-serialport. This is needed to facilitate the connection between the OpenWRT linux side of Yun and the Arduino ATmega 32U4 side. To do that, type in the following commands:
 <pre>opkg update</pre>
 <pre>opkg install node-serialport</pre>
-<i>Same here, installing node-serialport took a long time</i>
+<i>Same here, installing node-serialport took a long time</i><br>
 
 Next you'll need to disable the bridge script so NodeJS can use that channel instead. To do that edit the <code>/etc/inittab</code file and commend out the <code>ttyATH0</code> line. You can edit the file by typing
 <pre>nano /etc/inittab</pre>
