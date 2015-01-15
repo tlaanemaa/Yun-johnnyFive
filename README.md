@@ -101,3 +101,4 @@ express: <a>http://expressjs.com/</a><br>
 Arduino Yun: <a>http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN</a><br>
 Another article on this: <a>https://github.com/born2net/mediaArduino</a><br>
 A forum post about how firmata blocks yun's boot: <a>http://forum.arduino.cc/index.php?topic=215338.msg1577312#msg1577312</a><br>
+New version of disk space expander that also allows creating swap: <a>https://github.com/Fede85/YunSketches/tree/master/YunDiskSpaceExpander</a><br>
