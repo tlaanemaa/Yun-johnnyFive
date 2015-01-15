@@ -30,7 +30,7 @@ The file should look something like this after editing:
 </pre>
 
 <h3>Uploading Firmata sketch</h3>
-Next upload the modified firmata sketch to your Arduino, you can do this over wifi or with an USB cable, doesnt matter. The modified sketch can be found here: <a>https://gist.github.com/edgarsilva/e73c15a019396d6aaef2</a> or here: <a>https://github.com/tlaanemaa/Yun-johnnyFive/blob/master/StandardFirmataForATH0.ino</a>
+Next upload the modified firmata sketch to your Arduino, you can do this over wifi or with an USB cable, doesnt matter. The modified sketch can be found here: <a>https://github.com/tlaanemaa/Yun-johnnyFive/blob/master/StandardFirmataForATH0.ino</a>. You may find similar scripts elsewhere online but this one is modified so it handles the problem in firmata that stops openWRT from booting (see the last link at the bottom of the page).
 
 <h3>Preparing your project</h3>
 Now the last thing left to do is to install the <a href="https://github.com/rwaldron/johnny-five">johnny-five</a> module and all other modules you need for your project (I also used socket.io and express). You'll probablly need to do this on your computer since Yun doesnt have enough RAM to install npm modules (you get an <i>out of memory</i> error).
