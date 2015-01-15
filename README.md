@@ -1,4 +1,4 @@
-<h1>How to set up NodeJS and johnny-five on <a href="http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN">Arduino Yun</a></h1>
+<h1>How to set up <a href="http://nodejs.org/"<a>NodeJS</a> and <a href="https://github.com/rwaldron/johnny-five">johnny-five</a> on <a href="http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN">Arduino Yun</a></h1>
 
 <p>It took me about 2-3 days to get johnny five properly working on my Arduino Yun. so I thought Id write down the steps I took so others (and myself in future) can use it when facing similar task.</p>
 
@@ -33,7 +33,7 @@ The file should look something like this after editing:
 Next upload the modified firmata sketch to your Arduino, you can do this over wifi or with an USB cable, doesnt matter. The modified sketch can be found here: <a>https://gist.github.com/edgarsilva/e73c15a019396d6aaef2</a> or here: <a>https://github.com/tlaanemaa/Yun-johnnyFive/blob/master/StandardFirmataForATH0.ino</a>
 
 <h3>Preparing your project</h3>
-Now the last thing left to do is to install the <a href="https://www.npmjs.com/package/johnny-five">johnny-five</a> module and all other modules you need for your project (I also used socket.io and express). You'll probablly need to do this on your computer since Yun doesnt have enough RAM to install npm modules (you get an <i>out of memory</i> error).
+Now the last thing left to do is to install the <a href="https://github.com/rwaldron/johnny-five">johnny-five</a> module and all other modules you need for your project (I also used socket.io and express). You'll probablly need to do this on your computer since Yun doesnt have enough RAM to install npm modules (you get an <i>out of memory</i> error).
 To install those modules simply navigate to your projects's folder in your PC and type in:
 <pre>npm install module-name</pre>
 So to install johnny-five type 
