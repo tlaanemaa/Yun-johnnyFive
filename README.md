@@ -1,4 +1,4 @@
-<h1>How to set up <a href="http://nodejs.org/"<a>NodeJS</a> and <a href="https://github.com/rwaldron/johnny-five">johnny-five</a> on <a href="http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN">Arduino Yun</a></h1>
+<h1>How to set up NodeJS and johnny-five on Arduino Yun</h1>
 
 <p>It took me about 2-3 days to get johnny five properly working on my Arduino Yun. so I thought Id write down the steps I took so others (and myself in future) can use it when facing similar task.</p>
 
@@ -92,5 +92,8 @@ io.on('connection', function(socket){
 </pre>
 
 
-<h3>Additional material</h3>
-<a>http://cylonjs.com/documentation/platforms/yun/</a>
+<h3>Links</h3>
+A guide on the same subject that helped me: <a>http://cylonjs.com/documentation/platforms/yun/</a>
+NodeJS: <a>http://nodejs.org/</a>
+johnny-five: <a>https://github.com/rwaldron/johnny-five</a>
+Arduino Yun <a>http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN</a>
