@@ -1,4 +1,4 @@
-<h1>How to set up NodeJS and johnny-five on Arduino Yun</h1>
+<h1>How to set up NodeJS and johnny-five on <a href="http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN">Arduino Yun</a></h1>
 
 <p>It took me about 2-3 days to get johnny five properly working on my Arduino Yun. so I thought Id write down the steps I took so others (and myself in future) can use it when facing similar task.</p>
 
