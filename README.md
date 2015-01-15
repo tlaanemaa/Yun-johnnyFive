@@ -44,7 +44,7 @@ I used <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
 When defining the board in johnny-five make sure to pass the port argument. It didnt work otherwise for me.
 <pre>var board = new five.Board({port: "/dev/ttyATH0"});</pre>
 
-<h3>Done</h3>
+<h3>Done!</h3>
 Thats it. Everything should work fine now.
 Below is the server script I used on Yun to turn an LED on and off from a website. It uses express to host the webserver, socker.io to send information from the website to NodeJS and johnny-five to control the led. Same setup should work with any other johnny-five capabilites (motors, servos, sensors, etc.)
 
