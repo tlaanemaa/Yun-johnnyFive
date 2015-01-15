@@ -93,7 +93,7 @@ io.on('connection', function(socket){
 
 
 <h3>Links</h3>
-A guide on the same subject that helped me: <a>http://cylonjs.com/documentation/platforms/yun/</a>
-NodeJS: <a>http://nodejs.org/</a>
-johnny-five: <a>https://github.com/rwaldron/johnny-five</a>
-Arduino Yun <a>http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN</a>
+A guide on the same subject that helped me: <a>http://cylonjs.com/documentation/platforms/yun/</a><br>
+NodeJS: <a>http://nodejs.org/</a><br>
+johnny-five: <a>https://github.com/rwaldron/johnny-five</a><br>
+Arduino Yun <a>http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN</a><br>
