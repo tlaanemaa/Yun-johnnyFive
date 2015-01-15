@@ -96,4 +96,5 @@ io.on('connection', function(socket){
 A guide on the same subject that helped me: <a>http://cylonjs.com/documentation/platforms/yun/</a><br>
 NodeJS: <a>http://nodejs.org/</a><br>
 johnny-five: <a>https://github.com/rwaldron/johnny-five</a><br>
-Arduino Yun <a>http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN</a><br>
+Arduino Yun: <a>http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN</a><br>
+Another article on this: <a>https://github.com/born2net/mediaArduino</a>
