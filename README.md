@@ -7,7 +7,7 @@
 First you need to make sure your Yun's firmware is up to date. This should be done first because updating firmware deletes all files on your Yun. There is a good instruction on how to do this at: <a>http://arduino.cc/en/Tutorial/YunSysupgrade</a>
 
 Next you'll want to increase your Yun's storage space because the flash memory that comes with Yun is not very large and it also wears out overtime. So using an SD card both gives you more space to work with and also somewhat extends the life of your Yun. Good instructions for that can be found at: <a>http://arduino.cc/en/Tutorial/ExpandingYunDiskSpace</a>.
-There is also a newer version of the disk space expander sketch that they mentioned in the instruction. There's a link to where to get it at the links section.
+There is also a newer version of the disk space expander sketch that they mentioned in the instruction, the new one should laos create a swap partition. I havent tried it myself but there's a link to where to get it at the links section if you want to try.
 
 <h3>Installing NodeJS and node-serialport</h3>
 Now its time to SSH into your Yun and install NodeJS. If you are on a windows machine (like I was) then <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">Putty</a> is a good SSH client to use. Installing NodeJS is easy, just type the following commands:
