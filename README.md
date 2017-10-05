@@ -20,7 +20,7 @@ Next up, you'll need to install node-serialport. This is needed to facilitate th
 <pre>opkg install node-serialport</pre>
 <i>Same here, installing node-serialport took a long time</i><br>
 
-Next you'll need to disable the bridge script so NodeJS can use that channel instead. To do that edit the <code>/etc/inittab</code file and commend out the <code>ttyATH0</code> line. You can edit the file by typing
+Next you'll need to disable the bridge script so NodeJS can use that channel instead. To do that edit the <code>/etc/inittab</code> file and comment out the <code>ttyATH0</code> line. You can edit the file by typing
 <pre>nano /etc/inittab</pre>
 The file should look something like this after editing:
 <pre>
